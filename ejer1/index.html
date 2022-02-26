@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Calculadora </title>
+	<meta charset="utf-8">
+	<link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body onload="inicio();">
+<center>
+	<h1> Calculadora revolucionaria </h1>
+		<!--ESTRUCTURA DE LA CALCULADORA-->
+	<table class="calcu">
+			<tr> 
+				<!--BARRA DE RESULTADOS Y MUESTRAS-->
+					<td colspan="4"> 
+						<span id="resul"></span>
+					</td>
+			</tr>
+			<tr>
+				<!--LIMPIAR PANTALLA-->
+				<td colspan="4"><button id="clean"> C </button></td>
+			</tr>
+			<tr>
+				<td><button id="n7"> 7 </button></td>
+				<td><button id="n8"> 8 </button></td>
+				<td><button id="n9"> 9 </button></td>
+				<td><button id="div"> / </button></td>
+			</tr>
+			<tr>
+				<td><button id="n4"> 4 </button></td>
+				<td><button id="n5"> 5 </button></td>
+				<td><button id="n6"> 6 </button></td>
+				<td><button id="mul"> * </button></td>
+			</tr>
+			<tr>
+				<td><button id="n1"> 1 </button></td>
+				<td><button id="n2"> 2 </button></td>
+				<td><button id="n3"> 3 </button></td>
+				<td><button id="res"> - </button></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button id="n0"> 0 </button></td>
+				<td><button id="pto"> . </button></td>
+				<td><button id="sum"> + </button></td>
+			</tr>
+			<tr>
+				<td colspan="4"><button id="igual"> = </button></td>
+			</tr>	
+	</table>
+	<p>Hecho por Laura Moscó</p>
+</center>
+	<script type="text/javascript" src="funcal.js"></script>
+</body>
+</html>
